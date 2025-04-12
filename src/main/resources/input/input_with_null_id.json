@@ -1,0 +1,8 @@
+{
+  "orderId": "",
+  "customer": "Артем",
+  "items": [
+    {"name": "Hoyтбyk", "price": 1700},
+    {"name": "Mышь","price":5}
+  ]
+}

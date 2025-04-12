@@ -1,7 +1,20 @@
-package org.example.testtaskscamel;
+package org.example.testtaskscamel.entities;
+
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class Items {
 
-    private String productName;
+    @JsonProperty("name")
+    private String name;
+
+    @JsonProperty("price")
     private int price;
+
+    public String getName() {
+        return name;
+    }
+
+    public int getPrice() {
+        return price;
+    }
 }
